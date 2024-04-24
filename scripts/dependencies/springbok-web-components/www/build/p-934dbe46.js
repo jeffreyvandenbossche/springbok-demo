@@ -1,0 +1,2 @@
+var n;(function(n){n[n["xs"]=375]="xs";n[n["sm"]=640]="sm";n[n["md"]=768]="md";n[n["lg"]=1024]="lg";n[n["xl"]=1280]="xl";n[n["2xl"]=1536]="2xl";n[n["3xl"]=1920]="3xl"})(n||(n={}));function t(n,t){const{innerWidth:e}=window;switch(n){case"min":{return e>=t}case"max":{return e<t}default:return false}}export{n as B,t as c};
+//# sourceMappingURL=p-934dbe46.js.map

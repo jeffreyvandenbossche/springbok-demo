@@ -1,0 +1,2 @@
+var E;(function(E){E[E["UNSTARTED"]=-1]="UNSTARTED";E[E["ENDED"]=0]="ENDED";E[E["PLAYING"]=1]="PLAYING";E[E["PAUSED"]=2]="PAUSED";E[E["BUFFERING"]=3]="BUFFERING";E[E["CUED"]=5]="CUED"})(E||(E={}));export{E as P};
+//# sourceMappingURL=p-a2bc2847.js.map

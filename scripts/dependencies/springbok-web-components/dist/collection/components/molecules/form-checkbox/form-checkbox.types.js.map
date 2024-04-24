@@ -1,0 +1,1 @@
+{"version":3,"file":"form-checkbox.types.js","sourceRoot":"","sources":["../../../../src/components/molecules/form-checkbox/form-checkbox.types.ts"],"names":[],"mappings":"","sourcesContent":["export type CheckboxItem = {\n  selected?: boolean;\n  disabled?: boolean;\n  text: string;\n  value?: string;\n};\n"]}

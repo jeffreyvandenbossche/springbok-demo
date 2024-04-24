@@ -1,0 +1,1 @@
+{"version":3,"file":"form-radio-button.types.js","sourceRoot":"","sources":["../../../../src/components/molecules/form-radio-button/form-radio-button.types.ts"],"names":[],"mappings":"","sourcesContent":["export type RadioButtonItem = {\n  selected?: boolean;\n  disabled?: boolean;\n  value: string;\n  text: string;\n};\n"]}

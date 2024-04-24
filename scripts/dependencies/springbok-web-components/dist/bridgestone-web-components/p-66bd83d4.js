@@ -1,0 +1,2 @@
+function r(r){if(r===null||r===undefined){return true}if(Object.keys(r).length===0&&r.constructor===Object){return true}if(typeof r==="string"&&r===""){return true}if(Array.isArray(r)&&r.length===0){return true}return false}export{r as i};
+//# sourceMappingURL=p-66bd83d4.js.map

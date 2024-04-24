@@ -1,0 +1,1 @@
+{"version":3,"file":"follow-us-banner.types.js","sourceRoot":"","sources":["../../../../src/components/molecules/follow-us-banner/follow-us-banner.types.ts"],"names":[],"mappings":"","sourcesContent":["export type SocialLinks = {\n  type: string;\n  instagramLink: string;\n  facebookLink: string;\n  youtubeLink: string;\n  linkedinLink: string;\n};\n"]}

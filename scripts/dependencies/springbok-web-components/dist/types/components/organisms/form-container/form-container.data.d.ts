@@ -1,0 +1,12 @@
+import { Components } from '../../../components';
+import { Thankyou } from './form-container.types';
+export declare const formContainerData: Components.BsFormContainer;
+export declare const formTextInputData: Components.BsFormInput;
+export declare const formNumberInputData: Components.BsFormInput;
+export declare const formEmailInputData: Components.BsFormInput;
+export declare const formSelectData: Components.BsFormSelect;
+export declare const formTextareaInputData: Components.BsFormInput;
+export declare const formCheckboxData: Components.BsFormCheckbox;
+export declare const formRadioButtonData: Components.BsFormRadioButton;
+export declare const buttonData: Components.BsButton;
+export declare const thankyouData: Thankyou;

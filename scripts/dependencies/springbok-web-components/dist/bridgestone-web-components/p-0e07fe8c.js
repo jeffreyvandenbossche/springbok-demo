@@ -1,0 +1,2 @@
+import{i}from"./p-66bd83d4.js";function t(e,f){const o=[];let r;if(!i(f.shadowRoot)){r=f.shadowRoot.querySelectorAll("*")}else{r=f.querySelectorAll("*")}r.forEach((f=>{if(!i(f.shadowRoot)){o.push(...t(e,f))}if(f.matches(e)){o.push(f)}}));return o}export{t as d};
+//# sourceMappingURL=p-0e07fe8c.js.map
