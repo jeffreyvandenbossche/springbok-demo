@@ -1,0 +1,2 @@
+var a;(function(a){a["Small"]="body-small";a["Default"]="body-default";a["Bold"]="body-bold"})(a||(a={}));var o;(function(a){a["Black"]="black";a["White"]="white";a["Default"]="light"})(o||(o={}));export{o as T,a};
+//# sourceMappingURL=p-d96af8d3.js.map

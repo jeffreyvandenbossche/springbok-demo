@@ -1,0 +1,2 @@
+function t(t,e){let l=Date.now();let u=null;return()=>{if(l+e-Date.now()<=0){clearTimeout(u);u=null;t();l=Date.now()}if(u===null){u=setTimeout((()=>{t()}),e+100)}}}export{t};
+//# sourceMappingURL=p-a072782b.js.map

@@ -1,0 +1,13 @@
+'use strict';
+
+exports.PlayerState = void 0;
+(function (PlayerState) {
+  PlayerState[PlayerState["UNSTARTED"] = -1] = "UNSTARTED";
+  PlayerState[PlayerState["ENDED"] = 0] = "ENDED";
+  PlayerState[PlayerState["PLAYING"] = 1] = "PLAYING";
+  PlayerState[PlayerState["PAUSED"] = 2] = "PAUSED";
+  PlayerState[PlayerState["BUFFERING"] = 3] = "BUFFERING";
+  PlayerState[PlayerState["CUED"] = 5] = "CUED";
+})(exports.PlayerState || (exports.PlayerState = {}));
+
+//# sourceMappingURL=youtube-video.types-596b7828.js.map

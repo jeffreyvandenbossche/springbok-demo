@@ -1,0 +1,665 @@
+/* stylelint-disable selector-no-vendor-prefix */
+@font-face {
+  font-family: "BridgestoneType";
+  src: url("./assets/fonts/BridgestoneType/BridgestoneType-Regular.woff2") format("woff2"), url("./assets/fonts/BridgestoneType/BridgestoneType-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "BridgestoneType-Bold";
+  src: url("./assets/fonts/BridgestoneType/BridgestoneType-Bold.woff2") format("woff2"), url("./assets/fonts/BridgestoneType/BridgestoneType-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "BridgestoneType-Italic";
+  src: url("./assets/fonts/BridgestoneType/BridgestoneType-Italic.woff2") format("woff2"), url("./assets/fonts/BridgestoneType/BridgestoneType-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "BridgestoneType-Medium";
+  src: url("./assets/fonts/BridgestoneType/BridgestoneType-Medium.woff2") format("woff2"), url("./assets/fonts/BridgestoneType/BridgestoneType-Medium.woff") format("woff");
+}
+/* container */
+.flex {
+  display: flex;
+}
+
+/* direction */
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col-r {
+  flex-direction: column-reverse;
+}
+
+.flex-row-r {
+  flex-direction: row-reverse;
+}
+
+/* wrap */
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.flex.wrap-reverse {
+  flex-wrap: wrap;
+}
+
+/* main axis */
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* cross axis */
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+/* grow/shrink */
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-light {
+  color: #f8f7f3;
+}
+
+.text-color-dark {
+  color: #031824;
+}
+
+.text-color-gray-800 {
+  color: #cbcbcb;
+}
+
+.text-color-gray-700 {
+  color: #666;
+}
+
+.text-color-black {
+  color: #1f1f1f;
+}
+
+.text-color-primary {
+  color: #f00;
+}
+
+.text-color-orange-700 {
+  color: #edd1ab;
+}
+
+.text-color-orange-600 {
+  color: #e2b579;
+}
+
+.text-color-green-700 {
+  color: #c8edab;
+}
+
+.text-color-green-600 {
+  color: #a7e179;
+}
+
+.text-color-blue-700 {
+  color: #abcfed;
+}
+
+.text-color-blue-600 {
+  color: #79b3e2;
+}
+
+.bg-color-gray-50 {
+  background-color: #161616;
+}
+
+.bg-color-gray-100 {
+  background-color: #1f1f1f;
+}
+
+.bg-color-gray-200 {
+  background-color: #292929;
+}
+
+.bg-color-gray-400 {
+  background-color: #3d3d3d;
+}
+
+.bg-color-black {
+  background-color: #000;
+}
+
+.bg-color-white {
+  background-color: #fff;
+}
+
+.bg-color-black-opacity-60 {
+  background-color: rgba(31, 31, 31, 0.6);
+}
+
+.bg-color-black-opacity-40 {
+  background-color: rgba(31, 31, 31, 0.4);
+}
+
+.bg-color-black-opacity-20 {
+  background-color: rgba(31, 31, 31, 0.2);
+}
+
+.bg-color-primary {
+  background-color: #f00;
+}
+
+.bg-color-orange-50 {
+  background-color: #642f16;
+}
+
+.bg-color-orange-100 {
+  background-color: #86491d;
+}
+
+.bg-color-green-50 {
+  background-color: #196316;
+}
+
+.bg-color-green-100 {
+  background-color: #3d861d;
+}
+
+.bg-color-blue-50 {
+  background-color: #163764;
+}
+
+.bg-color-blue-100 {
+  background-color: #1d5286;
+}
+
+.size-xx-small {
+  font-size: 0.8333333333rem;
+}
+
+.size-x-small {
+  font-size: 1rem;
+}
+
+.size-small {
+  font-size: 1.1666666667rem;
+}
+
+.size-default {
+  font-size: 1.3333333333rem;
+}
+
+.size-medium {
+  font-size: 1.5rem;
+}
+
+.size-large {
+  font-size: 1.6666666667rem;
+}
+
+.size-x-large {
+  font-size: 2rem;
+}
+
+.size-xx-large {
+  font-size: 2.3333333333rem;
+}
+
+.size-xxx-large {
+  font-size: 2.6666666667rem;
+}
+
+.size-huge {
+  font-size: 3rem;
+}
+
+.font-head-1 {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 2.3333333333rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-head-1 {
+    font-size: 2.6666666667rem;
+  }
+}
+
+.font-head-2 {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.6666666667rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-head-2 {
+    font-size: 2.3333333333rem;
+  }
+}
+
+.font-head-3 {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-head-3 {
+    font-size: 1.6666666667rem;
+  }
+}
+
+.font-head-4 {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: default;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-head-4 {
+    font-size: 1.6666666667rem;
+  }
+}
+
+.font-head-5 {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: default;
+  letter-spacing: normal;
+}
+
+.font-body-small {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.font-body-default {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+}
+@media screen and (min-width: 768px) {
+  .font-body-default {
+    font-size: 1.3333333333rem;
+    line-height: 1.6;
+  }
+}
+
+.font-body-bold {
+  font-family: "BridgestoneType-Bold", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+}
+@media screen and (min-width: 768px) {
+  .font-body-bold {
+    line-height: 1.6;
+  }
+}
+
+.font-body-italic {
+  font-family: "BridgestoneType-Italic", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+}
+@media screen and (min-width: 768px) {
+  .font-body-italic {
+    font-size: 1.3333333333rem;
+    line-height: 1.6;
+  }
+}
+
+.font-label {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+
+.font-caption {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.font-hightlight {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+
+.font-cta-label-small {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+
+.font-cta-label-default {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: capitalise;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-cta-label-default {
+    font-size: 1.3333333333rem;
+  }
+}
+
+.font-cta-label-secondary {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 500;
+  line-height: 1.1;
+  text-transform: inherit;
+  letter-spacing: normal;
+}
+
+.font-cta-text-link {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+}
+@media screen and (min-width: 768px) {
+  .font-cta-text-link {
+    font-size: 1.6666666667rem;
+    line-height: 1.6;
+    letter-spacing: normal;
+  }
+}
+
+.font-cta-text-link-small {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.1666666667rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+  .font-cta-text-link-small {
+    font-size: 1.3333333333rem;
+  }
+}
+
+.base-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.overlay-menu,
+.overlay-menu > * {
+  box-sizing: border-box;
+}
+
+.overlay-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.6);
+  backdrop-filter: blur(3px);
+}
+.overlay-menu__container {
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.3333333333rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 50px;
+  padding-right: 10vw;
+  overflow: auto;
+  background: #fff;
+  animation: slide-in 0.5s cubic-bezier(0.5, 0, 0, 1);
+}
+@media screen and (min-width: 768px) {
+  .overlay-menu__container {
+    font-size: 1.3333333333rem;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-height: 800px) {
+  .overlay-menu__container {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .overlay-menu__container {
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .overlay-menu__container {
+    gap: 1.8333333333rem;
+    width: 100%;
+    padding: 27px;
+  }
+}
+.overlay-menu__container.is-closing {
+  animation: slide-out 0.5s cubic-bezier(0.5, 0, 0, 1);
+}
+.overlay-menu__head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.1666666667rem;
+}
+@media screen and (max-height: 800px) {
+  .overlay-menu__head {
+    margin-bottom: 0;
+  }
+}
+.overlay-menu__logo {
+  --image--height: 3.75rem;
+  --image--fit: "contain";
+}
+@media screen and (max-width: 767px) {
+  .overlay-menu__logo {
+    --image--height: 2.6666666667rem;
+  }
+}
+.overlay-menu__close-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8333333333rem;
+  height: 2.8333333333rem;
+  font-size: 1.6666666667rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  transform: translateY(-50%);
+}
+@media screen and (min-width: 768px) {
+  .overlay-menu__close-button {
+    font-size: 2rem;
+  }
+}
+.overlay-menu__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.3333333333rem;
+  width: 36.6666666667rem;
+  min-height: 1px;
+}
+.overlay-menu__content bs-accordion-item {
+  font-size: 1.3333333333rem;
+}
+@media screen and (max-width: 639px) {
+  .overlay-menu__content {
+    width: unset;
+  }
+}
+.overlay-menu__thumbnail-item {
+  display: flex;
+  gap: 1.3333333333rem;
+  --image--height: 65px;
+  --image--width: 65px;
+}
+.overlay-menu__accordion-child {
+  margin-left: 1.6666666667rem;
+  font-size: 1rem;
+}
+.overlay-menu__link {
+  flex: 1;
+  width: 100%;
+  padding: 0;
+  font: inherit;
+  pointer-events: all;
+}
+.overlay-menu__content-panel {
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.overlay-menu__content-panel::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
+.overlay-menu__content-panel.is-visible {
+  display: block;
+}
+.overlay-menu__panel-switch {
+  display: flex;
+  flex-shrink: 0;
+  gap: 4px;
+  align-self: center;
+  padding: 4px;
+  margin-top: auto;
+  border: 1.5px solid #3d3d3d;
+  border-radius: 0.6666666667rem;
+}
+.overlay-menu__switch-button {
+  padding: 0.75em 1.8em;
+  font-family: "BridgestoneType", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 0.3333333333rem;
+  opacity: 0.38;
+  transition: 0.2s ease-out;
+  transition-property: background, opacity;
+}
+@media screen and (max-width: 767px) {
+  .overlay-menu__switch-button {
+    font-size: 1rem;
+  }
+}
+.overlay-menu__switch-button:not([aria-selected=true]):hover {
+  background: #3d3d3d;
+}
+.overlay-menu__switch-button[aria-selected=true] {
+  color: #f00;
+  background: #fff;
+  opacity: 1;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,2 @@
+var t;(function(t){t["Internal"]="internal";t["Blank"]="_blank";t["Self"]="_self";t["Parent"]="_parent";t["Top"]="_top"})(t||(t={}));var n;(function(t){t["Button"]="button";t["Reset"]="reset";t["Submit"]="submit"})(n||(n={}));export{t as C,n as a};
+//# sourceMappingURL=p-44208145.js.map

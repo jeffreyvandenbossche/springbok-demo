@@ -1,0 +1,1 @@
+{"version":3,"file":"accordion.types.js","sourceRoot":"","sources":["../../../../src/components/organisms/accordion/accordion.types.ts"],"names":[],"mappings":"","sourcesContent":["export interface AccordionStory {\n  accordionItemId: string;\n  accordionItemTitle: string;\n  accordionItemText: string;\n}\n"]}

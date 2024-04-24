@@ -1,0 +1,1 @@
+{"version":3,"file":"youtube-video.data.js","sourceRoot":"","sources":["../../../../src/components/organisms/youtube-video/youtube-video.data.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,SAAS,GAAG,oCAAoC,CAAC","sourcesContent":["export const playerApi = 'https://www.youtube.com/player_api';\n"]}

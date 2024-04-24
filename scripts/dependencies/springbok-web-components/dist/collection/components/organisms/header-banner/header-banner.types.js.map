@@ -1,0 +1,1 @@
+{"version":3,"file":"header-banner.types.js","sourceRoot":"","sources":["../../../../src/components/organisms/header-banner/header-banner.types.ts"],"names":[],"mappings":"AAAA,MAAM,CAAN,IAAY,OAGX;AAHD,WAAY,OAAO;EACjB,0BAAe,CAAA;EACf,0BAAe,CAAA;AACjB,CAAC,EAHW,OAAO,KAAP,OAAO,QAGlB","sourcesContent":["export enum Variant {\n  Image = 'image',\n  Video = 'video',\n}\n"]}

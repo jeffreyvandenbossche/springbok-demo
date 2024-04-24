@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"","sources":["../../src/global/app.ts"],"names":[],"mappings":"AAAA,OAAO,+BAA+B,CAAC;AACvC,OAAO,UAAU,CAAC","sourcesContent":["import '@springbokagency/stencil-base';\nimport 'ionicons';\n"]}

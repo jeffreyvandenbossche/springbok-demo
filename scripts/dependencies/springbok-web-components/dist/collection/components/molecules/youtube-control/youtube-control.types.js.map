@@ -1,0 +1,1 @@
+{"version":3,"file":"youtube-control.types.js","sourceRoot":"","sources":["../../../../src/components/molecules/youtube-control/youtube-control.types.ts"],"names":[],"mappings":"","sourcesContent":["export type YoutubeControlClickEvent = {\n  id: string;\n  action?: string;\n  value?: number;\n};\n"]}

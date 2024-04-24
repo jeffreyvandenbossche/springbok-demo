@@ -1,0 +1,6 @@
+{
+  "name": "@springbokagency/bridgestone-web-components/hydrate",
+  "description": "BridgestoneWebComponents component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts"
+}

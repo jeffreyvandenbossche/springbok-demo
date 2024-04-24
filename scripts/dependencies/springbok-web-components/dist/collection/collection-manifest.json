@@ -1,0 +1,80 @@
+{
+  "entries": [
+    "./components/atoms/button/button.js",
+    "./components/atoms/click-action/click-action.js",
+    "./components/atoms/date/date.js",
+    "./components/atoms/dot-navigation/dot-navigation.js",
+    "./components/atoms/icon/icon.js",
+    "./components/atoms/image/image.js",
+    "./components/atoms/quote/quote.js",
+    "./components/atoms/story-quote/story-quote.js",
+    "./components/atoms/text/text.js",
+    "./components/atoms/title/title.js",
+    "./components/molecules/video-card/video-card.js",
+    "./components/organisms/image-carousel/image-carousel.js",
+    "./components/molecules/experience-zone-modal/experience-zone-modal.js",
+    "./components/molecules/test-badge-detail/test-badge-detail.js",
+    "./components/organisms/test-badge-modal/test-badge-modal.js",
+    "./components/layouts/default-layout/default-layout.js",
+    "./components/molecules/accordion-item/accordion-item.js",
+    "./components/molecules/article-card/article-card.js",
+    "./components/molecules/author/author.js",
+    "./components/molecules/breadcrumb/breadcrumb.js",
+    "./components/molecules/callout-box/callout-box.js",
+    "./components/molecules/carousel-card/carousel-card.js",
+    "./components/molecules/container/container.js",
+    "./components/molecules/country-link/country-card.js",
+    "./components/molecules/cta-banner/cta-banner.js",
+    "./components/molecules/experience-zone/experience-zone.js",
+    "./components/molecules/experience-zone-card/experience-zone-card.js",
+    "./components/molecules/experience-zone-screen/experience-zone-screen.js",
+    "./components/molecules/experience-zone-story/experience-zone-story.js",
+    "./components/molecules/follow-us-banner/follow-us-banner.js",
+    "./components/molecules/form-checkbox/form-checkbox.js",
+    "./components/molecules/form-field/form-field.js",
+    "./components/molecules/form-input/form-input.js",
+    "./components/molecules/form-radio-button/form-radio-button.js",
+    "./components/molecules/form-select/form-select.js",
+    "./components/molecules/logo-bar/logo-bar.js",
+    "./components/molecules/newsletter-banner/newsletter-banner.js",
+    "./components/molecules/product-card/product-card.js",
+    "./components/molecules/share-banner/share-banner.js",
+    "./components/molecules/test-badge-card/test-badge-card.js",
+    "./components/molecules/tooltip/tooltip.js",
+    "./components/molecules/youtube-control/youtube-control.js",
+    "./components/organisms/accordion/accordion.js",
+    "./components/organisms/base-modal/base-modal.js",
+    "./components/organisms/blog-header/blog-header.js",
+    "./components/organisms/dark-theme-overlay/dark-theme-overlay.js",
+    "./components/organisms/form-container/form-container.js",
+    "./components/organisms/header-banner/header-banner.js",
+    "./components/organisms/header-navigation/header-navigation.js",
+    "./components/organisms/light-theme-overlay/light-theme-overlay.js",
+    "./components/organisms/overlay-menu/overlay-menu.js",
+    "./components/organisms/related-articles/related-articles.js",
+    "./components/organisms/slider/slider.js",
+    "./components/organisms/test-badge/test-badge.js",
+    "./components/organisms/youtube-video/youtube-video.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "3.4.2",
+    "typescriptVersion": "5.0.4"
+  },
+  "collections": [
+    {
+      "name": "@springbokagency/stencil-base",
+      "tags": [
+        "base-ping"
+      ]
+    },
+    {
+      "name": "ionicons",
+      "tags": [
+        "ion-icon"
+      ]
+    }
+  ],
+  "bundles": [],
+  "global": "./global/app.js"
+}

@@ -1,0 +1,2 @@
+var t;(function(t){t["Blank"]="_blank";t["Self"]="_self";t["Parent"]="_parent";t["Top"]="_top";t["Internal"]="internal"})(t||(t={}));var n;(function(t){t["Button"]="button";t["Submit"]="submit";t["Reset"]="reset"})(n||(n={}));var a;(function(t){t["Primary"]="primary";t["Secondary"]="secondary";t["Text"]="text"})(a||(a={}));var r;(function(t){t["Left"]="left";t["Right"]="right"})(r||(r={}));export{a as B,n as a};
+//# sourceMappingURL=p-3401ba9c.js.map

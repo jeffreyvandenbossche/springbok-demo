@@ -1,0 +1,1 @@
+{"version":3,"names":["BaseModalId"],"sources":["./src/components/organisms/base-modal/base-modal.types.ts"],"sourcesContent":["export enum BaseModalId {\n  Media = 'media-modal',\n  OverlayMenu = 'overlay-menu',\n}\n\nexport type TransitionType = 'fade' | 'scale';\n"],"mappings":"IAAYA,GAAZ,SAAYA,GACVA,EAAA,uBACAA,EAAA,6BACD,EAHD,CAAYA,MAAW,Y"}
