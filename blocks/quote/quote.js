@@ -1,9 +1,3 @@
-function hasWrapper(el) {
-  return !!el.firstElementChild && window.getComputedStyle(el.firstElementChild).display === 'block';
-}
-
-// carousel.js
-
 class BsCarousel {
   constructor({
     quote,

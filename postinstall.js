@@ -7,7 +7,7 @@ const excludeFolders = ['assets'];
 
 fs.cpSync(sourceDirPath, destinationDirPath, {
   recursive: true,
-  filter: (srcPath, destPath) => {
+  filter: (srcPath) => {
     if (excludeFolders.includes(path.basename(srcPath))) {
       return false;
     }
