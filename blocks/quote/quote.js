@@ -27,34 +27,6 @@ function trimHtmlAttributes(html) {
 export default async function decorate(block) {
   const [quotation, attribution] = [...block.children].map((c) => c.firstElementChild);
 
-  /*  const blockquote = document.createElement('blockquote');
-
-  quotation.className = 'quote-quotation';
-  if (!hasWrapper(quotation)) {
-    quotation.innerHTML = `<p>${quotation.innerHTML}</p>`;
-  }
-  blockquote.append(quotation);
-  // decoration attribution
-  if (attribution) {
-    attribution.className = 'quote-attribution';
-    if (!hasWrapper(attribution)) {
-      attribution.innerHTML = `<p>${attribution.innerHTML}</p>`;
-    }
-    blockquote.append(attribution);
-    const ems = attribution.querySelectorAll('em');
-    ems.forEach((em) => {
-      const cite = document.createElement('cite');
-      cite.innerHTML = em.innerHTML;
-      em.replaceWith(cite);
-    });
-  } */
-  const ems = attribution.querySelectorAll('em');
-  ems.forEach((em) => {
-    const cite = document.createElement('cite');
-    cite.innerHTML = em.innerHTML;
-    em.replaceWith(cite);
-  });
-
   const carousel = new BsCarousel({
     quote: quotation.innerHTML.replace(/<[^>]*>/g, ''),
     name: trimHtmlAttributes(attribution.innerHTML.replace(/<[^>]*>/g, '')),
