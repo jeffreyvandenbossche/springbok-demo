@@ -1,5 +1,5 @@
-// eslint-disable-next-line import/no-unresolved
-import { defineCustomElements } from 'bridgestone-web-components-loader/index.js';
+// eslint-disable-next-line import/no-relative-packages
+import { defineCustomElements } from './dependencies/springbok-web-components/loader/index.js';
 
 defineCustomElements().then(() => {
   // eslint-disable-next-line no-console
